@@ -327,20 +327,3 @@
       font-size: 13px;
       margin-top: 12px;
     }
-
-    /* Dark mode */
-    @media (prefers-color-scheme: dark) {
-      :root {
-        --surface: rgba(17, 24, 39, 0.9);
-        --surface-strong: rgba(17, 24, 39, 0.96);
-        --surface-muted: rgba(17, 24, 39, 0.86);
-        --text: #e5e7eb;
-        --muted: #cbd5e1;
-        --border: rgba(255, 255, 255, 0.08);
-      }
-      .status-badge { background: var(--surface); color: var(--text); }
-      .output { background: var(--surface-strong); }
-      #translatedText { background: rgba(17,24,39,0.85); color: #f8fafc; border-color: rgba(255,255,255,0.08); }
-      .subtitle, .output-title { color: #cbd5e1; }
-      .btn-ghost { box-shadow: 0 10px 22px rgba(0,0,0,0.35); }
-    }
