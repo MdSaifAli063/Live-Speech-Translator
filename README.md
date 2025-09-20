@@ -1,12 +1,11 @@
 # 🎤 Live Speech Translator
-
-<p align="center">
   
 A tiny, full-stack app that listens to your computer’s microphone, recognizes speech, translates it to your chosen language, and shows the latest translation in a sleek web UI — all running locally.
 
 - Backend: Flask + threading + SpeechRecognition + deep-translator
 - Frontend: Plain HTML/CSS/JS served by Flask (auto-opens in your browser)
-
+<p align="center">
+  
   <img alt="Python" src="https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&amp;logoColor=white" />
   <img alt="Flask" src="https://img.shields.io/badge/Flask-2.3%2B-000000?logo=flask&amp;logoColor=white" />
   <img alt="License" src="https://img.shields.io/badge/Local%20Only-Dev-orange?logo=homeassistant&amp;logoColor=white" />
