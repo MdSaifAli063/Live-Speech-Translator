@@ -1,15 +1,17 @@
 # 🎤 Live Speech Translator
-
+  
 A tiny, full-stack app that listens to your computer’s microphone, recognizes speech, translates it to your chosen language, and shows the latest translation in a sleek web UI — all running locally.
 
 - Backend: Flask + threading + SpeechRecognition + deep-translator
 - Frontend: Plain HTML/CSS/JS served by Flask (auto-opens in your browser)
-
 <p align="center">
+  
   <img alt="Python" src="https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&amp;logoColor=white" />
   <img alt="Flask" src="https://img.shields.io/badge/Flask-2.3%2B-000000?logo=flask&amp;logoColor=white" />
   <img alt="License" src="https://img.shields.io/badge/Local%20Only-Dev-orange?logo=homeassistant&amp;logoColor=white" />
 </p>
+
+![image](https://github.com/MdSaifAli063/Live-Speech-Translator/blob/1795f1c3a6c4556ee220e3732ead4674f07070c4/Screenshot%202025-09-21%20005025.png)
 
 ---
 
@@ -50,10 +52,8 @@ python -m venv .venv
 # macOS/Linux:
 source .venv/bin/activate
 
-
 Install dependencies
 pip install -r server/requirements.txt
-
 
 PyAudio may require system libraries:
 
@@ -61,22 +61,17 @@ Windows
 pip install pipwin
 pipwin install pyaudio
 
-
 macOS
 brew install portaudio
 pip install pyaudio
-
 
 Ubuntu/Debian
 sudo apt-get update
 sudo apt-get install -y portaudio19-dev python3-pyaudio
 pip install pyaudio
 
-
 Run the backend
 python server/app.py
-
-
 
 It will auto-open http://localhost:5000 in your default browser
 The UI calls the backend endpoints on the same origin
@@ -97,18 +92,12 @@ Body (JSON):
   "targetLang": "hi"
 }
 
-
-
 Response:
 { "message": "Listening and translating...", "translatedText": "Starting speech recognition..." }
-
-
 
 GET /stop
 Response:
 { "message": "Stopped." }
-
-
 
 GET /status
 Response:
@@ -118,7 +107,6 @@ Response:
   "sourceLang": "en",
   "targetLang": "hi"
 }
-
 
 🌍 Language Codes
 
@@ -144,7 +132,6 @@ curl http://localhost:5000/status
 
 # Stop
 curl http://localhost:5000/stop
-
 
 🧰 Configuration Tips
 
