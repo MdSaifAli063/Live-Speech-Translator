@@ -53,8 +53,9 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 Install dependencies
+```bash
 pip install -r server/requirements.txt
-
+```
 PyAudio may require system libraries:
 
 Windows
