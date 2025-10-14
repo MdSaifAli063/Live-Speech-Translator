@@ -159,6 +159,7 @@ curl http://localhost:5000/stop
 Serving static assets
 - Place index.html and any referenced files (css/js/images/fonts) in the project root (same folder as index.html)
 The backend serves common static file types without interfering with /start, /stop, /status
+
 CORS
 - CORS is enabled for all origins by default for local development:
 - CORS(app, resources={r"/*": {"origins": "*"}})
