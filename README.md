@@ -147,21 +147,21 @@ curl http://localhost:5000/status
 ```bash
 curl http://localhost:5000/stop
 ```
-🧰 Configuration Tips
+## 🧰 Configuration Tips
 
-Change port/host
-In server/app.py (bottom):
-host = "127.0.0.1"
-port = 5000
-app.run(host="0.0.0.0", port=port, debug=True)
+- Change port/host
+- In server/app.py (bottom):
+- host = "127.0.0.1"
+- port = 5000
+- app.run(host="0.0.0.0", port=port, debug=True)
 
-Update port as needed. If you deploy to another machine, make sure firewalls allow that port.
+- Update port as needed. If you deploy to another machine, make sure firewalls allow that port.
 Serving static assets
-Place index.html and any referenced files (css/js/images/fonts) in the project root (same folder as index.html)
+- Place index.html and any referenced files (css/js/images/fonts) in the project root (same folder as index.html)
 The backend serves common static file types without interfering with /start, /stop, /status
 CORS
-CORS is enabled for all origins by default for local development:
-CORS(app, resources={r"/*": {"origins": "*"}})
+- CORS is enabled for all origins by default for local development:
+- CORS(app, resources={r"/*": {"origins": "*"}})
 
 For production, restrict it to your frontend origin.
 
