@@ -140,8 +140,9 @@ curl -X POST http://localhost:5000/start \
   -d "{\"sourceLang\":\"en\",\"targetLang\":\"hi\"}"
 ```
 # Status
+```bash
 curl http://localhost:5000/status
-
+```
 # Stop
 curl http://localhost:5000/stop
 
