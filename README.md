@@ -121,13 +121,15 @@ Response:
 ## 🌍 Language Codes
 
 Source → SpeechRecognition locale mapping (examples)
-en → en-US
-hi → hi-IN
-gu → gu-IN
-cn / zh / zh-CN → zh-CN
-ko → ko-KR
-deep-translator target codes
-en, hi, gu, zh-CN, ko
+
+- en → en-US
+- hi → hi-IN
+- gu → gu-IN
+- cn / zh / zh-CN → zh-CN
+- ko → ko-KR
+- deep-translator target codes
+- en, hi, gu, zh-CN, ko
+  
 If a given code fails for source language, translation falls back to auto-detect.
 
 🧪 Curl Tests (optional)
