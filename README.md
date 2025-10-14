@@ -81,7 +81,7 @@ python server/app.py
 It will auto-open http://localhost:5000 in your default browser
 The UI calls the backend endpoints on the same origin
 
-🧭 How It Works
+## 🧭 How It Works
 
 Click Start in the UI to POST /start with your chosen source/target languages
 A background thread captures mic audio, recognizes text, translates it, and updates shared state
