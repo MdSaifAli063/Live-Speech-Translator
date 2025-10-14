@@ -84,10 +84,11 @@ The UI calls the backend endpoints on the same origin
 
 ## 🧭 How It Works
 
-Click Start in the UI to POST /start with your chosen source/target languages
-A background thread captures mic audio, recognizes text, translates it, and updates shared state
-The UI polls GET /status to show the latest translated text
-Click Stop to gracefully end the background worker
+- Click Start in the UI to POST /start with your chosen source/target languages
+- A background thread captures mic audio, recognizes text, translates it, and updates shared state
+- The UI polls GET /status to show the latest translated text
+- Click Stop to gracefully end the background worker
+
 🔌 API Reference
 Base URL (local): http://localhost:5000
 
