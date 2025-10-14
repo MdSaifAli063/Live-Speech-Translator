@@ -118,7 +118,7 @@ Response:
   "targetLang": "hi"
 }
 ```
-🌍 Language Codes
+## 🌍 Language Codes
 
 Source → SpeechRecognition locale mapping (examples)
 en → en-US
