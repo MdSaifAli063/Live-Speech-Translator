@@ -184,25 +184,36 @@ For production, restrict it to your frontend origin.
 
 A minimal Python/web project ignore set:
 
-# Python
+### Python
 __pycache__/
 *.py[cod]
+
 *$py.class
+
 *.log
 
-# Environments
+### Environments
 .venv/
+
 venv/
+
 env/
+
 ENV/
+
 .conda/
+
 .pyvenv.cfg
 
-# Packaging
+### Packaging
 build/
+
 dist/
+
 *.egg-info/
+
 .eggs/
+
 wheels/
 
 # Coverage / testing
