@@ -73,7 +73,7 @@ Ubuntu/Debian
 sudo apt-get update
 sudo apt-get install -y portaudio19-dev python3-pyaudio
 pip install pyaudio
-
+```
 Run the backend
 python server/app.py
 
