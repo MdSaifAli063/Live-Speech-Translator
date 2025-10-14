@@ -102,6 +102,7 @@ Body (JSON):
 }
 ```
 Response:
+```
 { "message": "Listening and translating...", "translatedText": "Starting speech recognition..." }
 
 GET /stop
@@ -116,7 +117,7 @@ Response:
   "sourceLang": "en",
   "targetLang": "hi"
 }
-
+```
 🌍 Language Codes
 
 Source → SpeechRecognition locale mapping (examples)
