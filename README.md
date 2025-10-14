@@ -75,8 +75,9 @@ sudo apt-get install -y portaudio19-dev python3-pyaudio
 pip install pyaudio
 ```
 Run the backend
+```bash
 python server/app.py
-
+```
 It will auto-open http://localhost:5000 in your default browser
 The UI calls the backend endpoints on the same origin
 
