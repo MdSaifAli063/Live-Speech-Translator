@@ -187,33 +187,22 @@ A minimal Python/web project ignore set:
 ### Python
 __pycache__/
 *.py[cod]
-
 *$py.class
-
 *.log
 
 ### Environments
 .venv/
-
 venv/
-
 env/
-
 ENV/
-
 .conda/
-
 .pyvenv.cfg
 
 ### Packaging
 build/
-
 dist/
-
 *.egg-info/
-
 .eggs/
-
 wheels/
 
 ### Coverage / testing
