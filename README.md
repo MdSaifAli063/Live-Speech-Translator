@@ -51,7 +51,7 @@ python -m venv .venv
 .venv\Scripts\activate
 # macOS/Linux:
 source .venv/bin/activate
-
+```
 Install dependencies
 pip install -r server/requirements.txt
 
