@@ -144,8 +144,9 @@ curl -X POST http://localhost:5000/start \
 curl http://localhost:5000/status
 ```
 # Stop
+```bash
 curl http://localhost:5000/stop
-
+```
 🧰 Configuration Tips
 
 Change port/host
