@@ -216,18 +216,18 @@ dist/
 
 wheels/
 
-# Coverage / testing
+### Coverage / testing
 .coverage
 .coverage.*
 htmlcov/
 .pytest_cache/
 
-# Editors
+### Editors
 .vscode/
 .idea/
 *.iml
 
-# Frontend
+### Frontend
 node_modules/
 .cache/
 dist/
