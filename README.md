@@ -121,7 +121,6 @@ Response:
 ## 🌍 Language Codes
 
 Source → SpeechRecognition locale mapping (examples)
-
 - en → en-US
 - hi → hi-IN
 - gu → gu-IN
@@ -135,10 +134,11 @@ If a given code fails for source language, translation falls back to auto-detect
 ## 🧪 Curl Tests (optional)
 
 # Start (English → Hindi)
+```bash
 curl -X POST http://localhost:5000/start \
   -H "Content-Type: application/json" \
   -d "{\"sourceLang\":\"en\",\"targetLang\":\"hi\"}"
-
+```
 # Status
 curl http://localhost:5000/status
 
