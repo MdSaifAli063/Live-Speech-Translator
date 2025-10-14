@@ -59,14 +59,17 @@ pip install -r server/requirements.txt
 PyAudio may require system libraries:
 
 Windows
+```bash
 pip install pipwin
 pipwin install pyaudio
-
+```
 macOS
+```bash
 brew install portaudio
 pip install pyaudio
-
+```
 Ubuntu/Debian
+```bash
 sudo apt-get update
 sudo apt-get install -y portaudio19-dev python3-pyaudio
 pip install pyaudio
