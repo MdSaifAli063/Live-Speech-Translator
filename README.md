@@ -132,7 +132,7 @@ Source → SpeechRecognition locale mapping (examples)
   
 If a given code fails for source language, translation falls back to auto-detect.
 
-🧪 Curl Tests (optional)
+## 🧪 Curl Tests (optional)
 
 # Start (English → Hindi)
 curl -X POST http://localhost:5000/start \
