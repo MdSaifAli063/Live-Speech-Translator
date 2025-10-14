@@ -223,8 +223,8 @@ dist/
 public/build/
 
 
-💡 Notes
+## 💡 Notes
 
-This app is for local/dev usage. It relies on third-party services for recognition and translation.
-The backend UI auto-opens in your default browser when you run server/app.py.
+- This app is for local/dev usage. It relies on third-party services for recognition and translation.
+- The backend UI auto-opens in your default browser when you run server/app.py.
 Enjoy translating! 🌟
