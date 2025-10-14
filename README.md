@@ -180,7 +180,7 @@ For production, restrict it to your frontend origin.
 - PyAudio installation fails
 - Use the OS-specific steps above (pipwin on Windows, Homebrew on macOS, apt on Ubuntu/Debian)
 
-🧹 .gitignore
+## 🧹 .gitignore
 
 A minimal Python/web project ignore set:
 
