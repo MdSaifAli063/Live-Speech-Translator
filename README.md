@@ -89,7 +89,8 @@ The UI calls the backend endpoints on the same origin
 - The UI polls GET /status to show the latest translated text
 - Click Stop to gracefully end the background worker
 
-🔌 API Reference
+## 🔌 API Reference
+
 Base URL (local): http://localhost:5000
 
 POST /start
