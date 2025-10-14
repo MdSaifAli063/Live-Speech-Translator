@@ -183,14 +183,14 @@ For production, restrict it to your frontend origin.
 ## 🧹 .gitignore
 
 A minimal Python/web project ignore set:
-
-### Python
+```bash
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
 *.log
 
-### Environments
+# Environments
 .venv/
 venv/
 env/
@@ -198,30 +198,30 @@ ENV/
 .conda/
 .pyvenv.cfg
 
-### Packaging
+# Packaging
 build/
 dist/
 *.egg-info/
 .eggs/
 wheels/
 
-### Coverage / testing
+# Coverage / testing
 .coverage
 .coverage.*
 htmlcov/
 .pytest_cache/
 
-### Editors
+# Editors
 .vscode/
 .idea/
 *.iml
 
-### Frontend
+# Frontend
 node_modules/
 .cache/
 dist/
 public/build/
-
+```
 
 ## 💡 Notes
 
