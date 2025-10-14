@@ -133,17 +133,17 @@ If a given code fails for source language, translation falls back to auto-detect
 
 ## 🧪 Curl Tests (optional)
 
-# Start (English → Hindi)
+### Start (English → Hindi)
 ```bash
 curl -X POST http://localhost:5000/start \
   -H "Content-Type: application/json" \
   -d "{\"sourceLang\":\"en\",\"targetLang\":\"hi\"}"
 ```
-# Status
+### Status
 ```bash
 curl http://localhost:5000/status
 ```
-# Stop
+### Stop
 ```bash
 curl http://localhost:5000/stop
 ```
