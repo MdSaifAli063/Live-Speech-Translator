@@ -166,19 +166,19 @@ CORS
 
 For production, restrict it to your frontend origin.
 
-🛟 Troubleshooting
+## 🛟 Troubleshooting
 
 “Microphone error” or “Invalid input device”
-Ensure a default recording device is selected
-Grant microphone permissions to your terminal/IDE (macOS: System Settings → Privacy & Security → Microphone)
-SpeechRecognition RequestError
-Requires internet; check connectivity and try again
-No translation appears
-Confirm the backend is running
-Check browser console/network for fetch errors
-Speak clearly and pause slightly; the worker uses ~7s phrase chunks
-PyAudio installation fails
-Use the OS-specific steps above (pipwin on Windows, Homebrew on macOS, apt on Ubuntu/Debian)
+- Ensure a default recording device is selected
+- Grant microphone permissions to your terminal/IDE (macOS: System Settings → Privacy & Security → Microphone)
+- SpeechRecognition RequestError
+- Requires internet; check connectivity and try again
+- No translation appears
+- Confirm the backend is running
+- Check browser console/network for fetch errors
+- Speak clearly and pause slightly; the worker uses ~7s phrase chunks
+- PyAudio installation fails
+- Use the OS-specific steps above (pipwin on Windows, Homebrew on macOS, apt on Ubuntu/Debian)
 
 🧹 .gitignore
 
