@@ -94,12 +94,13 @@ The UI calls the backend endpoints on the same origin
 Base URL (local): http://localhost:5000
 
 POST /start
+```
 Body (JSON):
 {
   "sourceLang": "en",
   "targetLang": "hi"
 }
-
+```
 Response:
 { "message": "Listening and translating...", "translatedText": "Starting speech recognition..." }
 
