@@ -30,9 +30,7 @@ A tiny, full-stack app that listens to your computer’s microphone, recognizes 
 
 ## 🗂️ Project Structure
 
-
 project-root/ ├─ index.html # Frontend (served by Flask) └─ server/ ├─ app.py # Flask backend (serves API + index.html + static assets) └─ requirements.txt # Python dependencies
-
 
 ---
 
