@@ -146,6 +146,7 @@ curl http://localhost:5000/status
 ```bash
 curl http://localhost:5000/stop
 ```
+
 ## 🧰 Configuration Tips
 
 - Change port/host
